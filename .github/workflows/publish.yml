@@ -30,3 +30,6 @@ jobs:
         docker build -t acrozi/personnummer_validation-docker:latest .
         echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
         docker push acrozi/personnummer_validation-docker:latest
+
+
+#UPDATE
